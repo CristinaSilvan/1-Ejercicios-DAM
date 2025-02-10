@@ -1,0 +1,30 @@
+img{
+    width: 1500px;
+    object-fit: cover;
+}
+
+#contenedor_padre{
+    margin: 2%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#contenedor1, #contenedor2, #contenedor3{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+
+#imagen1, #imagen2, #imagen3, #enlace1, #enlace2, #enlace3{
+    width: auto;
+    height: auto;
+}
+
+#enlace1, #enlace2, #enlace3{
+    text-align: center;
+}
+
+a{
+    font-size: 30px;
+}
