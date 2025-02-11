@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Árbol de Nodos I</title>
+</head>
+<body>
+    <div id="titulo">
+        <h2>Opciones del menú del día:</h2>
+    </div>
+
+    <div class="contenedor_padre">
+        <div class="contenedor_opcion">
+            <select name="plato_principal" id="plato_principal">
+                <option value="" disabled selected>(Elegir primer plato)</option>
+                <option value="opcion1">Lentejas con chorizo (3€)</option>
+                <option value="opcion2">Crema de calabaza (2€)</option>
+            </select>
+            
+            <select name="plato_segundo" id="plato_segundo">
+                <option value="" disabled selected>(Elegir segundo plato)</option>
+                <option value="opcion1">Escalope de pollo (4€)</option>
+                <option value="opcion2">Lubina al horno (5€)</option>
+            </select>
+        
+            <select name="plato_tercero" id="plato_tercero">
+                <option value="" disabled selected>(Elegir tercer plato)</option>
+                <option value="opcion1">Flan de huevo (1€)</option>
+                <option value="opcion2">Arroz con leche (2€)</option>
+            </select>
+        </div>
+
+        <div class="contenedor_imagenes">
+            <div class="contenedor_imagen">
+                <img src="./img/1.png" alt="Imagen predeterminada" id="imagen1">
+            </div>
+    
+            <div class="contenedor_imagen">
+                <img src="./img/1.png" alt="Imagen predeterminada" id="imagen2">
+            </div>
+    
+            <div class="contenedor_imagen">
+                <img src="./img/1.png" alt="Imagen predeterminada" id="imagen3">
+            </div>
+        </div>
+    </div>
+
+    <div id="realizar_pedido">
+        <div>
+            <input type="checkbox" id="descuento">
+            <label for="descuento">Consigue un 10% de descuento!!</label>
+        </div>
+        <button id="a_comer">¡A comer!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
