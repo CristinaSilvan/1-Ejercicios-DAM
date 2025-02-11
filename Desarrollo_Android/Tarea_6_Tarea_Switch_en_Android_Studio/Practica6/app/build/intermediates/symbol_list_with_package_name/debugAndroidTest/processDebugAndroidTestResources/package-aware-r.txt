@@ -1,3 +1,0 @@
-com.example.practica6.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
