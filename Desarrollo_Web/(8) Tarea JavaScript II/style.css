@@ -1,0 +1,25 @@
+.nucleo{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+}
+
+div{
+    font-weight: bold;
+}
+
+.zona-input{
+    margin: 5%
+}
+
+
+button{
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color:#54a7ff;
+}
+
+button:hover{
+    background-color: #496e97;
+    color: rgb(255, 255, 255);
+}
