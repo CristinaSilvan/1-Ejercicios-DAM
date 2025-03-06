@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        
+        "source.organizeImports": "never"
+    },
+    "json.format.enable": false,
+    "workbench.settings.useSplitJSON": true,
+    "editor.showUnused": false
+}
